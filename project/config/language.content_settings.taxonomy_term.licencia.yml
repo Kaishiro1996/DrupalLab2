@@ -1,0 +1,11 @@
+uuid: ebf2721e-964a-4742-acca-0a49b5de029a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.licencia
+id: taxonomy_term.licencia
+target_entity_type_id: taxonomy_term
+target_bundle: licencia
+default_langcode: site_default
+language_alterable: false

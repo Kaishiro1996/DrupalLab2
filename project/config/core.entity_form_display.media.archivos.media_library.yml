@@ -1,0 +1,30 @@
+uuid: a2204588-f288-4160-ad24-9472cf8ca8e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.archivos.field_license_type
+    - field.field.media.archivos.field_media_file
+    - media.type.archivos
+id: media.archivos.media_library
+targetEntityType: media
+bundle: archivos
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_license_type: true
+  field_media_file: true
+  langcode: true
+  path: true
+  status: true
+  uid: true

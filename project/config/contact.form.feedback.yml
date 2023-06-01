@@ -1,14 +1,14 @@
-uuid: 938c36ef-f48d-479c-a996-26e15d494e18
-langcode: en
+uuid: 42d12fbe-5e64-468e-9d54-a5e2cf54f3fd
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
 id: feedback
-label: 'Website feedback'
+label: 'Comentarios sobre el sitio web'
 recipients:
-  - admin@example.com
+  - marcelo@correo.com
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
+message: 'Su mensaje ha sido enviado.'
 redirect: ''
